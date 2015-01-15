@@ -17,7 +17,7 @@
 //#import "MyAudioReceiver.h"
 #import "MyAudioPlayer.h"
 
-@interface ViewController : UIViewController<AEAudioReceiver, AEAudioPlayable> {
+@interface ViewController : UIViewController<AEAudioReceiver> {
     @public
     MyAudioPlayer *player1;
     MyAudioPlayer *player2;
